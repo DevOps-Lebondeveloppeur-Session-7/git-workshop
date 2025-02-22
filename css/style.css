@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Righteous&family=Sofia+Sans+Semi+Condensed:ital,wght@0,700;0,800;1,600;1,700&display=swap');
+
+body{
+     background-color: #31CAD3;
+     
+ }
+
+ .card{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 310px;
+    height: 320px;
+ }
+
+ .img{
+    background: white;
+    border-radius: 30%;
+    width: 120px;
+    height: 130px;
+ }
+ .title{
+    
+    background: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Almarai', sans-serif;
+ }
+ .par{
+    background: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+
+ }
+ .btn{
+    background-color: #31CAD3;
+    border:  rgb(7, 215, 226);
+    font-size: 18px;
+    color: white;
+    font-style: normal;
+    width: 220px;
+    height: 40px;
+    
+
+ }
