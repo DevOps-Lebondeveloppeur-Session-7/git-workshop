@@ -1,0 +1,13 @@
+name: dev_workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    job_1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: list folders
+              run: ls -l
