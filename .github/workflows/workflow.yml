@@ -23,3 +23,13 @@ jobs:
 
             - name: check docker
               run: docker --version
+
+    job_3:
+        runs-on: ubuntu-latest
+        needs: job_1
+        steps:
+            - name: list folders
+              run: ls -l
+
+            - name: check docker
+              run: docker --version
